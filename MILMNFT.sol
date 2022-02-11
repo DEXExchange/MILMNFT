@@ -10,7 +10,7 @@
 | $$ \/  | $$ /$$$$$$| $$$$$$$$| $$ \/  | $$
 |__/     |__/|______/|________/|__/     |__/   
 /**
-// Forked from HashLips
+// Forked and amended from HashLips
 /**
     !Disclaimer!
     These contracts have been used to create tutorials,
