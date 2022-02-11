@@ -163,7 +163,7 @@ contract MILMNFT is ERC721, Ownable, ReentrancyGuard {
 
   function withdraw() public onlyOwner nonReentrant {
     // This will pay MILM Suga Mama Fund 50% of the initial sale.
-    // 15% of the BAAC Genesis mint ETH revenues allocates this support to NASA's NCAS Community College.
+    // 50% of the MILM Genesis mint ETH revenues allocates this support to support women led projects and mothers whom are bringing their art into NFT form.
     // =============================================================================
     (bool hs, ) = payable(0xCabeEe95b404435613C7d53BFBb3cD9a0dB87B53).call{value: address(this).balance * 50 / 100}("");
     require(hs);
